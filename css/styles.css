@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    --color-primary-cyan: hsl(158, 36%, 37%);
+    --color-primary-cream:  hsl(30, 38%, 92%);
+    --color-paragraph-darkgreyishblue: hsl(228, 12%, 48%);
+
+    --font-main: "Fraunces", serif;
+    --font-secundary: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: var(--color-primary-cream);
+    font-family: var(--font-secundary);
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    left: 0;
+}
+
+main ul{
+    width: 38.2rem ;
+    margin: 15rem auto;
+}
+
+main li{
+    display: flex;
+    list-style: none;
+    border-radius: 10px;
+    box-shadow: 0 0 2px rgb(196, 196, 196);
+}
+
+#desktop-img{
+    max-height: 33rem;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#mobile-img{
+    display: none;
+}
+
+#item-content{
+    padding: 2rem;
+    width: 370px;
+}
+
+#preview{
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h1{
+    font-family: var(--font-main);
+}
+
+p{
+    font-size: 0.9rem;
+    color: var(--color-paragraph-darkgreyishblue);
+}
+
+#price{
+    display: flex;
+    align-items: center;
+}
+
+#main-price{
+    font-family: var(--font-main);
+    color: var(--color-primary-cyan);
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+#second-price{
+    justify-self: flex-end;
+}
+
+#cart-btn{
+    display: flex;
+    background-color: var(--color-primary-cyan);
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+#cart-icon{
+    height: 1.1rem;
+}
+
+#cart-btn a{
+    color: white;
+    padding: 0.9rem;
+    text-decoration: none;
+}
+
+.attribution {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: rgb(62, 82, 163);
+}
