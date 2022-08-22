@@ -27,10 +27,10 @@ Users should be able to:
 
 ### Screenshot
 - Desktop
-![](../images/screenshot-desktop.png)
+![](./images/screenshot-desktop.png)
 
 - Portrait
-![](../images/screenshot-mobile.png)
+![](./images/screenshot-mobile.png)
 
 ### Links
 
