@@ -27,6 +27,7 @@ main ul{
     margin: 15rem auto;
 }
 
+/* flex container */
 main li{
     display: flex;
     list-style: none;
@@ -38,6 +39,7 @@ main li{
     max-height: 33rem;
     object-fit: cover;
     overflow: hidden;
+    border-radius: 10px 0 0 10px;
 }
 
 #mobile-img{
@@ -46,7 +48,7 @@ main li{
 
 #item-content{
     padding: 2rem;
-    width: 370px;
+    width: 23.12rem;
 }
 
 #preview{
@@ -61,8 +63,11 @@ h1{
 p{
     font-size: 0.9rem;
     color: var(--color-paragraph-darkgreyishblue);
+    line-height: 2;
+   
 }
 
+/* Flex container */
 #price{
     display: flex;
     align-items: center;
@@ -79,12 +84,17 @@ p{
     justify-self: flex-end;
 }
 
+/* Flex container */
 #cart-btn{
     display: flex;
     background-color: var(--color-primary-cyan);
     justify-content: center;
     align-items: center;
     border-radius: 6px;
+}
+
+#cart-btn:hover{
+    background-color: hsl(159, 35%, 24%);
 }
 
 #cart-icon{
@@ -98,10 +108,40 @@ p{
 }
 
 .attribution {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   text-align: center;
 }
 
 .attribution a {
   color: rgb(62, 82, 163);
+}
+
+/* Portrait mode */
+@media (max-width: 48rem){
+    #desktop-img{
+        display: none;
+    }
+
+    #mobile-img{
+        display: block;
+        border-radius: 10px 10px 0 0;
+    }
+
+    main ul{
+        width: 24rem ;
+        padding: 0;
+    }
+
+    main li{
+        flex-direction: column;
+    }
+
+    #item-content{
+        padding: 2.2rem;
+    }
+
+    p{
+        margin-bottom: 0;
+    }
+
 }
