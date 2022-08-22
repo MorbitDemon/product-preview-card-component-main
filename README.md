@@ -26,11 +26,9 @@ Users should be able to:
 - See hover and focus states for interactive elements
 
 ### Screenshot
-- Desktop
-![](./images/screenshot-desktop.png)
+![Desktop](./images/screenshot-desktop.png)
 
-- Portrait
-![](./images/screenshot-mobile.png)
+![Portrait](./images/screenshot-mobile.png)
 
 ### Links
 
