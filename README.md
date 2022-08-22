@@ -27,10 +27,10 @@ Users should be able to:
 
 ### Screenshot
 - Desktop
-![](../product-preview-card-component-main/images/screenshot-desktop.png)
+![](../images/screenshot-desktop.png)
 
 - Portrait
-![](../product-preview-card-component-main/images/screenshot-mobile.png)
+![](../images/screenshot-mobile.png)
 
 ### Links
 
